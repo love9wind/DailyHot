@@ -51,7 +51,7 @@ export default defineConfig(({ mode }) => {
           ],
         },
         manifest: {
-          name: "今日热榜",
+          name: "天天热榜",
           short_name: "DailyHot",
           description: "汇聚全网热点，热门尽览无余",
           display: "standalone",
@@ -60,7 +60,7 @@ export default defineConfig(({ mode }) => {
           background_color: "#efefef",
           icons: [
             {
-              src: "/ico/favicon.png",
+              src: "/ico/hot.svg",
               sizes: "200x200",
               type: "image/png",
             },
