@@ -5,10 +5,18 @@
       <n-text
         class="author"
         :depth="3"
+        v-html="packageJson.home"
+        @click="jumpLink(packageJson.homelink)"
+      />
+      <n-text class="description" v-html="packageJson.powered" />
+      <n-text class="powered" v-html="packageJson.powered" />
+      <n-text
+        class="author"
+        :depth="3"
         v-html="packageJson.author"
         @click="jumpLink(packageJson.github)"
       />
-    </div>
+      </div>
     <n-text
       v-if="icp"
       :depth="3"
