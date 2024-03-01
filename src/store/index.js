@@ -156,13 +156,13 @@ export const mainStore = defineStore("mainData", {
         },
         {
           label: "抖音热歌",
-          value: "douyin_music",
+          name: "douyin_music",
           order: 24,
           show: true
         },
         {
           label: "Github Trending",
-          value: "github",
+          name: "github",
           order: 25,
           show: true
         }
