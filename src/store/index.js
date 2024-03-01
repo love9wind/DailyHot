@@ -154,6 +154,18 @@ export const mainStore = defineStore("mainData", {
           order: 23,
           show: true,
         },
+        {
+          label: "抖音热歌",
+          value: "douyin_music",
+          order: 24,
+          show: true
+        },
+        {
+          label: "Github Trending",
+          value: "github",
+          order: 25,
+          show: true
+        }
       ],
       newsArr: [],
       // 链接跳转方式
